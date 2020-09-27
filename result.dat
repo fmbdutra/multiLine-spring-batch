@@ -1,0 +1,9 @@
+Transaction{accountNumber='1165965', transactionDate=Sat Jan 22 00:13:29 BRST 2011, amount=51.43}
+Customer{firstName='Ann', middleInitial ='V' , lastName='Gates' , street='9247 Infinite Loop Drive' , city='Hollywood' , state='NE' , zipCode='37612}
+Transaction{accountNumber='8116369', transactionDate=Fri Jan 21 20:40:52 BRST 2011, amount=-14.83}
+Transaction{accountNumber='8116369', transactionDate=Fri Jan 21 15:50:17 BRST 2011, amount=-45.45}
+Transaction{accountNumber='8116369', transactionDate=Fri Jan 21 16:52:46 BRST 2011, amount=-74.6}
+Customer{firstName='Erica', middleInitial ='I' , lastName='Jobs' , street='8875 Farnam Street' , city='Aurora' , state='IL' , zipCode='36314}
+Transaction{accountNumber='8116369', transactionDate=Sat Jan 22 13:51:05 BRST 2011, amount=48.55}
+Transaction{accountNumber='8116369', transactionDate=Fri Jan 21 16:51:59 BRST 2011, amount=98.53}
+Customer{firstName='Warren', middleInitial ='Q' , lastName='Darrow' , street='8272 4th Street' , city='New York' , state='IL' , zipCode='76091}

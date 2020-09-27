@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class com.fabiano.HelloWorldJobConfigTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class com.fabiano.HelloWorldJobConfigTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.fabiano.html">com.fabiano</a> &gt; HelloWorldJobConfigTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.746s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testHelloWorldJob</td>
+<td class="success">0.746s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>00:41:39.203 [Test worker] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.fabiano.HelloWorldJobConfigTest]
+00:41:39.234 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+00:41:39.292 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+00:41:39.456 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.fabiano.HelloWorldJobConfigTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+00:41:39.515 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.fabiano.HelloWorldJobConfigTest], using SpringBootContextLoader
+00:41:39.527 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.fabiano.HelloWorldJobConfigTest]: class path resource [com/fabiano/HelloWorldJobConfigTest-context.xml] does not exist
+00:41:39.527 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.fabiano.HelloWorldJobConfigTest]: class path resource [com/fabiano/HelloWorldJobConfigTestContext.groovy] does not exist
+00:41:39.527 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.fabiano.HelloWorldJobConfigTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+00:41:39.629 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.fabiano.HelloWorldJobConfigTest]
+00:41:39.830 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.fabiano.HelloWorldJobConfigTest]: using defaults.
+00:41:39.832 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+00:41:39.850 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [javax/servlet/ServletContext]
+00:41:39.870 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7e12e13a, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@547eea5d, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@33c37bf4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@68ef6c6c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@19d4b7a, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@22926516, org.springframework.test.context.event.EventPublishingTestExecutionListener@aa6a66b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1939275f, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@72147999, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@431f0818, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7cb56bee, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2c66b8f8]
+00:41:39.872 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.fabiano.HelloWorldJobConfigTest]
+00:41:39.883 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.fabiano.HelloWorldJobConfigTest]
+00:41:39.883 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.fabiano.HelloWorldJobConfigTest]
+00:41:39.883 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.fabiano.HelloWorldJobConfigTest]
+00:41:39.903 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@2863817d testClass = HelloWorldJobConfigTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@2a4de553 testClass = HelloWorldJobConfigTest, locations = '{}', classes = '{class com.fabiano.HelloWorldJobConfigTest$BatchTestConfig, class com.fabiano.HelloWorldJobConfigTest$BatchTestConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1ee7c94f, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@65e70c08, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@709e7629, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@1d4a48fa], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+00:41:39.911 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.fabiano.HelloWorldJobConfigTest]
+00:41:39.911 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.fabiano.HelloWorldJobConfigTest]
+00:41:39.929 [Test worker] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@2863817d testClass = HelloWorldJobConfigTest, testInstance = com.fabiano.HelloWorldJobConfigTest@5855f431, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@2a4de553 testClass = HelloWorldJobConfigTest, locations = '{}', classes = '{class com.fabiano.HelloWorldJobConfigTest$BatchTestConfig, class com.fabiano.HelloWorldJobConfigTest$BatchTestConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1ee7c94f, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@65e70c08, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@709e7629, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@1d4a48fa], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]]].
+00:41:39.985 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.2.RELEASE)
+
+2020-09-27 00:41:40.572  INFO 10096 --- [    Test worker] com.fabiano.HelloWorldJobConfigTest      : Starting HelloWorldJobConfigTest on DESKTOP-I4IMES4 with PID 10096 (started by fabiano in S:\pessoal\laboratorio\helloWorldBatch)
+2020-09-27 00:41:40.572  INFO 10096 --- [    Test worker] com.fabiano.HelloWorldJobConfigTest      : No active profile set, falling back to default profiles: default
+2020-09-27 00:41:41.459  WARN 10096 --- [    Test worker] o.s.b.c.c.a.DefaultBatchConfigurer       : No datasource was provided...using a Map based JobRepository
+2020-09-27 00:41:41.459  WARN 10096 --- [    Test worker] o.s.b.c.c.a.DefaultBatchConfigurer       : No transaction manager was provided, using a ResourcelessTransactionManager
+2020-09-27 00:41:41.511  INFO 10096 --- [    Test worker] o.s.b.c.l.support.SimpleJobLauncher      : No TaskExecutor has been set, defaulting to synchronous executor.
+2020-09-27 00:41:41.559  INFO 10096 --- [    Test worker] com.fabiano.HelloWorldJobConfigTest      : Started HelloWorldJobConfigTest in 1.564 seconds (JVM running for 4.368)
+2020-09-27 00:41:42.036  INFO 10096 --- [    Test worker] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=helloWorldJob]] launched with the following parameters: [{random=915299}]
+2020-09-27 00:41:42.092  INFO 10096 --- [    Test worker] o.s.batch.core.job.SimpleStepHandler     : Executing step: [helloWorldStep]
+2020-09-27 00:41:42.145  INFO 10096 --- [    Test worker] com.fabiano.PersonItemProcessor          : converting 'firstName: Jill, lastName: Doe' into Hello Jill Doe!
+2020-09-27 00:41:42.145  INFO 10096 --- [    Test worker] com.fabiano.PersonItemProcessor          : converting 'firstName: Joe, lastName: Doe' into Hello Joe Doe!
+2020-09-27 00:41:42.145  INFO 10096 --- [    Test worker] com.fabiano.PersonItemProcessor          : converting 'firstName: Justin, lastName: Doe' into Hello Justin Doe!
+2020-09-27 00:41:42.145  INFO 10096 --- [    Test worker] com.fabiano.PersonItemProcessor          : converting 'firstName: Jane, lastName: Doe' into Hello Jane Doe!
+2020-09-27 00:41:42.145  INFO 10096 --- [    Test worker] com.fabiano.PersonItemProcessor          : converting 'firstName: John, lastName: Doe' into Hello John Doe!
+2020-09-27 00:41:42.161  INFO 10096 --- [    Test worker] o.s.batch.core.step.AbstractStep         : Step: [helloWorldStep] executed in 69ms
+2020-09-27 00:41:42.192  INFO 10096 --- [    Test worker] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=helloWorldJob]] completed with the following parameters: [{random=915299}] and the following status: [COMPLETED] in 116ms
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.10</a> at 27/09/2020 00:41:42</p>
+</div>
+</div>
+</body>
+</html>
